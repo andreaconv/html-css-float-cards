@@ -1,5 +1,31 @@
+/* GENERAL */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+.container{
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+
+  height: 200px;
+  background-color: red;
+  border: 1px solid black;
+
+
+}
+
+/* INIZIO HEADER */
+  
+
+/* FINE HEADER */
+
+
+/* INIZIO MAIN */
+
+
+/* FINE MAIN */
