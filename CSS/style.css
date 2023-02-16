@@ -20,6 +20,13 @@ body{
 
 
 }
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /* FINE GENERAL */
 
 
@@ -37,14 +44,11 @@ main .paragrafo p{
   margin-bottom: 30px;
 }
 
-main .cards ul li{
-  list-style: none;
-  /* display: inline-block; */
-}
-
-main .cards ul li .card{
-  width: 300px;
+main .cards .row .card{
+  float: left;
+  width: calc(100% / 3);
   height: 100px;
+  border: 1px solid white;
   background-color: black;
   color: white;
 }
