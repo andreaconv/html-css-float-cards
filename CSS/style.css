@@ -27,6 +27,10 @@ body{
   header, p{
     text-align: center;
   }
+  header{
+    color: #e53170;
+    font-size: 1.3rem;
+  }
 
 /* FINE HEADER */
 
@@ -34,7 +38,7 @@ body{
 /* INIZIO MAIN */
 
 main .paragrafo p, .row{
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 main .cards{
@@ -44,10 +48,19 @@ main .cards{
 main .cards .row .card{
   float: left;
   margin-right: 30px;
+  box-sizing: content-box;
+  box-shadow: 10px 10px 10px 10px lightgray;
   width: calc(100% / 3 - 30px);
   height: 100px;
+  border-radius: 5px;
   background-color: black;
 }
+
+
+
+/* trovare la via per far combaciare i margini ai lati col paragrafo di sopra */
+
+
 
 main .cards .row .card img{
   height: 100px;
