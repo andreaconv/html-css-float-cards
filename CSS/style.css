@@ -12,13 +12,6 @@ body{
   max-width: 1170px;
   margin: 30px auto;
 
-  /* da eliminare */
-
-  /* height: 200px; */
-  background-color: red;
-  border: 1px solid black;
-
-
 }
 
 .clearfix::after{
@@ -40,28 +33,45 @@ body{
 
 /* INIZIO MAIN */
 
-main .paragrafo p{
+main .paragrafo p, .row{
   margin-bottom: 30px;
+}
+
+main .cards{
+  height: 500px;
 }
 
 main .cards .row .card{
   float: left;
-  width: calc(100% / 3);
+  margin-right: 30px;
+  width: calc(100% / 3 - 30px);
   height: 100px;
-  border: 1px solid white;
   background-color: black;
 }
+
 main .cards .row .card img{
   height: 100px;
   vertical-align: middle;
 }
+
 main .cards .row .card .text{
   display: inline-block;
+  margin-left: 20px;
   color: white;
   vertical-align: middle;
 }
 
+main .cards .row .card .text .nome{
+  font-weight: bold;
+}
 
+main .cards .row .card .text .professione{
+  margin: 5px 0;
+}
+
+main .cards .row .card .text .email{
+color: #6ecbf2;
+}
 
 
 
