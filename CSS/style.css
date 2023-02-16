@@ -10,22 +10,48 @@ body{
 .container{
   width: 90%;
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 30px auto;
 
-  height: 200px;
+  /* da eliminare */
+
+  /* height: 200px; */
   background-color: red;
   border: 1px solid black;
 
 
 }
+/* FINE GENERAL */
+
 
 /* INIZIO HEADER */
-  
+  header, p{
+    text-align: center;
+  }
 
 /* FINE HEADER */
 
 
 /* INIZIO MAIN */
+
+main .paragrafo p{
+  margin-bottom: 30px;
+}
+
+main .cards ul li{
+  list-style: none;
+  /* display: inline-block; */
+}
+
+main .cards ul li .card{
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+
+
+
 
 
 /* FINE MAIN */
